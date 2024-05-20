@@ -13,8 +13,8 @@ cryptoMagic provides two main features: encryption and decryption of ASCII files
 To use cryptoMagic, clone the repository from GitHub using the provided link. Compile the source files using GCC, ensuring no debug flags are enabled. Once compiled, execute the binary file from the terminal, passing the appropriate command-line switches and file name as arguments. For example:
 ```
 gcc -o cryptoMagic cryptoMagic.c helperFunctions.c
-./cryptoMagic -encrypt inputFile.txt
-./cryptoMagic -decrypt encryptedFile.crp
+./bin/cryptoMagic -encrypt inputFileName
+./bin/cryptoMagic -decrypt encryptedFile.crp
 ```
 
 ### Interesting Parts during the Build Process:
@@ -25,3 +25,13 @@ One challenge was handling file I/O operations and ensuring seamless processing 
 
 ### Future Updates and Fixes:
 In the future, I plan to enhance the utility by adding support for more encryption algorithms, providing users with options for increased security. Additionally, I aim to improve the user interface by implementing more informative error messages and possibly adding a progress indicator for larger files. Regular updates and bug fixes will ensure cryptoMagic remains a reliable tool for data encryption and decryption on the Linux platform.
+
+### Screenshots:
+To encrypt a file:
+
+<img src="https://github.com/shubhhh19/cryptoMagic/assets/126296317/62f8903e-11d3-4157-8660-fa83419ea6ca" width="800" height="500">
+<img src="https://github.com/shubhhh19/cryptoMagic/assets/126296317/8dbbb45a-ffc7-4f24-a54a-8f2419b0fd3c" width="800" height="500">
+
+To decrypt a file:
+
+<img src="https://github.com/shubhhh19/cryptoMagic/assets/126296317/99615b1a-75f4-42aa-bd4e-8118f75f09dd" width="800" height="500">
